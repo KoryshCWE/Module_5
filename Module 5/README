@@ -1,0 +1,16 @@
+Time and Space Complexities:
+Recursive Fibonacci:
+Time Complexity: O(2^n)
+This is because each call branches into two more calls, leading to an exponential increase in function calls.
+Space Complexity: O(n)
+The recursive calls consume stack space proportional to the depth of the recursion, which is the same as the value of n.
+Iterative Fibonacci:
+Time Complexity: O(n)
+The loop iterates n times, performing constant-time operations in each iteration.
+Space Complexity: O(1)
+Only a constant amount of extra space is required for variables regardless of the input size.
+Dynamic Programming Fibonacci:
+Time Complexity: O(n)
+Similar to the iterative approach, but here we only iterate once over the n elements.
+Space Complexity: O(n)
+An array of size n is used to store the Fibonacci sequence values.
